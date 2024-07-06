@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+section {
+    margin: 60px;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul {
+    margin: auto;
+ 
+}
+.navbar ul li{
+    display: inline;
+    font-size: 24px;
+    padding: 10px;
+}
+.first {
+    width: 30%;
+}
+.first img {
+    width: 40%;
+}
+.second {
+    width: 40%;
+    color: white;
+    text-align: center;
+
+}
+.second ul li:hover{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.third {
+    width: 30%;
+}
+.third button {
+    float: right;
+}
+.fourth {
+display: flex; 
+justify-content: center;  
+align-items: center;
+margin: 60px;
+}
+.fourth .button { 
+        background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+        border-radius: 10px;
+        width: 250px;  
+        height: 70px; 
+        color: white; 
+        border: 0;
+} 
+.content p {
+    line-height: 25px;
+}
+
+.second a {
+    color: white;
+    text-decoration: none;
+    gap: 50px; 
+   justify-content: space-between;
+}
+
+.btn {
+    background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+    border-radius: 10px;
+    width: 150px;  
+    height: 50px;  
+    display: flex;  
+    justify-content: center;  
+     align-items: center; 
+     color: white;
+    border: 0;
+}
+.scale1{
+    text-align: center;
+    /* justify-content: center; */
+}
+.scale1 h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    
+}
+.scale1 h3{
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.scale1 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+.scale2 {
+    margin-top: 60px;
+}
+         /* card */
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.card h3 {
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200%;
+    margin-top: 40px;
+
+}
+.card h1 {
+    margin-top: 20px;
+    color:white;
+    font-size: 200%;
+
+}
+.card-container{
+    color: white;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+
+}
+.card-container1{
+    color: white;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+   
+}
+.card-container2{
+    color: white;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.main-container h2{
+    margin-bottom: 30px; ;
+}
+.main-container img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-container p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main-container i{
+    font-size: 25px;
+}
+
+                 /* understand */
+
+.understand {
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    color: white;
+}
+.understand1 {
+    width: 800px;
+    height: 350px;
+}
+.understand1 h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.understand1 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.understand1 li {
+    text-align: start;
+    font-size: 20px;
+    line-height: 45px;
+    list-style: none;
+}
+.understand1 li i {
+    
+    
+    font-size: 30px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.understand2 {
+    width: 800px;
+    height: 250px;
+}
+.understand2 img {
+    width: 700px;
+    height: 600px;
+}
+.develop {
+    color: white;
+    margin-top: 250px;
+    font-size: 25px;
+}
+.develop h1 span {
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+               /* A-1-2-3 */
+.A-1-2-3{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: -250px;
+}
+.A1{
+    width: 800px;
+    height: 200px;
+    color: white;
+
+}
+.A1 h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.A1 h2 {
+    font-size: 30px;
+}
+.A1 p {
+font-size: 15px;
+line-height: 25px;
+margin-top: 10px;
+}
+.A2{
+    width: 800px;
+    height: 200px;
+    color: white;
+   
+}
+.A2 h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.A2 h2 {
+    font-size: 30px;
+   
+}
+.A2 p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.A3{
+    width: 400px;
+    height: 200px;
+    color: white;
+   
+ }
+ .A3 h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .A3 h2 {
+    font-size: 30px;
+ }
+ .A3 p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+ }
+
+                          /* footer */
+ .footer-uper{
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+.cogent{
+    text-align: center;
+    margin-top: 40px;
+    width: 50%;
+}
+.cogent p{
+    margin-top: 40px;
+    line-height: 30px;
+}
+.Links{
+    text-align: center;
+    margin-top: 40px;
+    width: 50%;
+    
+}
+.Links h4{
+    margin-top: 40px;
+}
+.Information{
+    margin-top: 40px;
+    justify-self:start;
+    width: 50%;
+    
+}
+.Information h4{
+    margin-top: 40px;
+}
+.Contact-Us{
+    margin-top: 40px;
+    width: 50%;
+}
+.Contact-Us h4{
+    margin-top: 40px;
+    text-align: start;
+}
+
+          /* footer-lower */
+.footer-lower{
+    color: white;
+  display:flex ;
+  height: 100px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.footer-li {
+   margin-left: 550px;
+   background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+   background-clip: border-box;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
+.footer-li i{
+    margin: 0 5px;
+    font-size: 18px;
+}
+                  
